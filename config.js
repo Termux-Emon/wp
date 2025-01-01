@@ -32,7 +32,7 @@ module.exports = {
     process.env.LANGUAGE === undefined
       ? "EN"
       : process.env.LANGUAGE.toUpperCase(),
-  HANDLERS: process.env.HANDLERS === undefined ? "^[.]" : process.env.HANDLERS,
+  HANDLERS: process.env.HANDLERS === undefined ? "^[/]" : process.env.HANDLERS,
   SEND_READ:
     process.env.SEND_READ === undefined
       ? false
